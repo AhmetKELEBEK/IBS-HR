@@ -1,1 +1,10 @@
 C:\Users\Ahmet KELEBEK\Documents\GitHub\IBS-HR\IBS-HR\IBS-HR\bin\Debug\IBS-HR.exe.config
+C:\Users\Ahmet KELEBEK\Documents\GitHub\IBS-HR\IBS-HR\IBS-HR\bin\Debug\IBS-HR.exe
+C:\Users\Ahmet KELEBEK\Documents\GitHub\IBS-HR\IBS-HR\IBS-HR\bin\Debug\IBS-HR.pdb
+C:\Users\Ahmet KELEBEK\Documents\GitHub\IBS-HR\IBS-HR\IBS-HR\obj\Debug\IBS-HR.csprojResolveAssemblyReference.cache
+C:\Users\Ahmet KELEBEK\Documents\GitHub\IBS-HR\IBS-HR\IBS-HR\obj\Debug\IBS_HR.Form1.resources
+C:\Users\Ahmet KELEBEK\Documents\GitHub\IBS-HR\IBS-HR\IBS-HR\obj\Debug\IBS_HR.Properties.Resources.resources
+C:\Users\Ahmet KELEBEK\Documents\GitHub\IBS-HR\IBS-HR\IBS-HR\obj\Debug\IBS-HR.csproj.GenerateResource.Cache
+C:\Users\Ahmet KELEBEK\Documents\GitHub\IBS-HR\IBS-HR\IBS-HR\obj\Debug\IBS-HR.exe
+C:\Users\Ahmet KELEBEK\Documents\GitHub\IBS-HR\IBS-HR\IBS-HR\obj\Debug\IBS-HR.pdb
+C:\Users\Ahmet KELEBEK\Documents\GitHub\IBS-HR\IBS-HR\IBS-HR\obj\Debug\IBS_HR.yardım.resources
