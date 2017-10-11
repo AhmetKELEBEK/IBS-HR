@@ -63,9 +63,29 @@ namespace IBS_HR.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1024px_Help_browser_svg {
+            get {
+                object obj = ResourceManager.GetObject("1024px-Help-browser.svg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Başlıksız_1 {
             get {
                 object obj = ResourceManager.GetObject("Başlıksız-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Başlıksız_11 {
+            get {
+                object obj = ResourceManager.GetObject("Başlıksız-11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

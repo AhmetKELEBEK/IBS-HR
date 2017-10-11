@@ -56,7 +56,7 @@ namespace IBS_HR
                     {
                         komut.CommandText = "Create Database " + VeritataniAdi;
                         komut.ExecuteNonQuery();
-                        using (SqlCommand command = new SqlCommand("CREATE TABLE Kisiler(Ad char(50),Soyad char(50),Adres char(50));", baglanti))
+                       
                             baglanti.Close();
                         
                         string baglantiCumlesi = "server=.\\SQLEXPRESS; database=ibs; integrated security=SSPI";
@@ -65,7 +65,7 @@ namespace IBS_HR
                             {
 
                                 tolustur.Open();
-                                using (SqlCommand command = new SqlCommand("CREATE TABLE Kisiler(Ad char(50),Soyad char(50),Adres char(50));", tolustur))
+                                using (SqlCommand command = new SqlCommand("CREATE TABLE K_giris(K_adi char(50),sifre char(50),durum char(50));", tolustur))
 
                                    command.ExecuteNonQuery();
 
@@ -106,7 +106,23 @@ namespace IBS_HR
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            SqlConnection baglanti = new SqlConnection("server=.\\SQLEXPRESS; database=ibs; integrated security=SSPI");
+            SqlCommand komut = new SqlCommand();
+            baglanti.Open();
+            komut.Connection = baglanti;
+            komut.CommandText = "Select * from K_giris where K_adi = "+textBox1.Text+" and sifre = "+textBox2.Text;
+            komut.ExecuteNonQuery();
+            SqlDataReader dr = komut.ExecuteReader();
+            if (dr.Read())
+            {
+                MessageBox.Show("Giriş Başarılı");
+            }
+            else
+            {
+                MessageBox.Show("NO");
+            }
+            baglanti.Dispose();
+            baglanti.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -114,6 +130,16 @@ namespace IBS_HR
             yardım Form1 = new yardım();
             this.Hide();
             Form1.Show();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
     }
